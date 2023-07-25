@@ -1,5 +1,107 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
-    
+    font-family: 'Hanken Grotesk', sans-serif;
 }
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+}
+.container {
+    width: 600px;
+    height: 450px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: white;
+    box-shadow: 110px 100px 1000px 0px rgba(105, 79, 252, 0.164);
+    border-radius: 20px;
+}
+
+
+.result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-image: linear-gradient(hsl(252, 97%, 60%),hsl(241, 91%, 47%)) ;
+    border-radius: 20px;
+}
+ 
+.yres{
+    color: rgb(190, 196, 253);
+}
+
+.cercle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(41, 1, 153, 0.774),hsla(241, 98%, 21%, 0.034));
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.seventy{
+    font-size: 36px;
+    color: white;
+    font-weight: bolder;
+}
+
+.of100{
+    color: rgba(226, 227, 236, 0.377);
+    font-size: 12px;
+}
+
+.greate{
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.you{
+    text-align: center;
+    padding: 0px 35px;
+    color: rgba(190, 196, 253, 0.651);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.summary{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 26px;
+    min-width: 100%;
+}
+
+.sum{
+    color:hsla(241, 97%, 28%, 0.986) ;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.items div{
+    display: flex;
+    border-radius: 10px;
+    padding: 12px 0px;
+}
+
+.react{
+    background-color: hsla(0, 100%, 67%, 0.137);
+}
+
+.btn{
+    background-color: hsl(224, 30%, 27%);
+    color: white;
+    padding: 12px 10px;
+}
+
+ 
