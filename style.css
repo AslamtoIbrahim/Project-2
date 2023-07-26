@@ -78,7 +78,7 @@ body{
 }
 
 .sum{
-    color:hsla(241, 97%, 28%, 0.986) ;
+    color:hsla(226, 86%, 29%, 0.986) ;
 }
 
 .items{
@@ -89,12 +89,28 @@ body{
 
 .items div{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     border-radius: 10px;
-    padding: 12px 0px;
+    padding: 8px 8px;
 }
 
 .react{
+    color: hsl(0, 100%, 67%);
     background-color: hsla(0, 100%, 67%, 0.137);
+}
+
+.memory{
+    color: hsl(39, 100%, 56%);
+    background-color:hsl(39, 100%, 56%, 0.137) ;
+}
+.verbal{
+    color: hsl(166, 100%, 37%);
+    background-color:hsl(166, 100%, 37%, 0.137) ;
+}
+.visual{
+    color: hsl(234, 85%, 45%);
+    background-color:hsl(234, 85%, 45%, 0.137) ;
 }
 
 .btn{
@@ -105,4 +121,14 @@ body{
     border: none;
 }
 
- 
+.num{
+    color:hsla(226, 86%, 29%, 0.986) ;
+}
+.num::after{
+    content: " / 100";
+    color: rgba(103, 107, 143, 0.671);
+}
+
+.items img{
+    margin-right: 10px;
+}
