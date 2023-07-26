@@ -122,7 +122,7 @@ body{
 }
 
 .num{
-    color:hsla(226, 86%, 29%, 0.986) ;
+    color:hsl(224deg 54.8% 19.93%) ;
 }
 .num::after{
     content: " / 100";
