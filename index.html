@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@600&display=swap" rel="stylesheet">
+  <script src="script.js"></script>
 
   <title>Frontend Mentor | Results summary component</title>
 
@@ -36,7 +37,7 @@
           <div><img src="assets/images/icon-reaction.svg" alt="">
             <p>Reaction</p>
           </div>
-          <p class="num">80</p>
+          <p id="one" class="num">80</p>
         </div>
         <div class="memory">
           <div><img src="assets/images/icon-memory.svg" alt="">
@@ -57,10 +58,11 @@
           <p class="num">72</p>
         </div>
       </div>
-      <div class="button"><button class="btn">Continue</button></div>
+      <div class="button"><button onclick="showMe()" class="btn">Continue</button></div>
     </div>
   </div>
 
+   
 
 </body>
 
