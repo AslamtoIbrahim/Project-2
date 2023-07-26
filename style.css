@@ -29,7 +29,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    background-image: linear-gradient(hsl(252, 97%, 60%), hsl(241, 91%, 47%));
+    background-image: linear-gradient(hsl(252, 97%, 64%), hsl(241, 91%, 47%));
     border-radius: 20px;
 }
 
@@ -42,7 +42,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: linear-gradient(rgba(41, 1, 153, 0.774), hsla(241, 98%, 21%, 0.034));
+    background-image: linear-gradient(rgba(42, 1, 153, 0.568), hsla(241, 100%, 19%, 0.041));
     width: 120px;
     height: 120px;
     border-radius: 50%;
